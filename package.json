@@ -1,0 +1,23 @@
+{
+  "name": "nodemqtt",
+  "version": "0.0.1",
+  "description": "Node MQTT Testing",
+  "main": "server.js",
+  "scripts": {
+    "sensor": "node sensor.js 0",
+    "sensor1": "node sensor.js 1"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Conectric/nodemqtt.git"
+  },
+  "author": "Conectric Networks",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "2.15.0",
+    "mysql": "^2.18.1"
+  }
+}
